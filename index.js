@@ -32,7 +32,9 @@ if (message.content === '.help')                { message.channel.send      (
 
 //Menu du afk:    
 else if (message.content === '.afk help')       { message.channel.send      ('.afk on (numéro de 1 à 5(ou plus)) = pour activé le afk .\n' +
-    '.afk off (numéro de 1 à 5(ou plus)) = pour désactivé le afk .') }
+    '.afk off (numéro de 1 à 6(ou plus)) = pour désactivé le afk .\n' + 
+    '.afk r = affiché les raison .') }                                                                        
+
 
 //raisons afk (1 a 5):
 else if (message.content === '.afk on 1')       { message.reply             ('par en vacances') }
@@ -45,7 +47,9 @@ else if (message.content === '.afk on 4')       { message.reply             ('pu
 else if (message.content === '.afk off 4')      { message.reply             ('a prit ça douche il est propre comme une pomme .') }
 else if (message.content === '.afk on 5')       { message.reply             ('a pas fait ces devoir: il doit allé travaillé .') }
 else if (message.content === '.afk off 5')      { message.reply             ('a fini c\'est devoir: il va faire le con juste au bout de la nuit .') }
-
+else if (message.content === '.afk on 6')       { message.reply             ('va coupé du bois car il a froid .') }
+else if (message.content === '.afk off 6')      { message.reply             ('a fini de coupé du bois car il a chaud .') }
+  
 //Menu afk raison:
 if (message.content === '.afk r')               { message.channel.send      (
     '1: par en vacances\n' +
@@ -57,8 +61,9 @@ if (message.content === '.afk r')               { message.channel.send      (
     '4: pue la mort il va prendre une douche.\n' + 
     '4: a prit ça douche il est propre comme une pomme .\n' + 
     '5: a pas fait ces devoir: il doit allé travaillé .\n' + 
-    '5: a fini c\'est devoir: il va faire le con juste au bout de la nuit .') }
-
+    '5: a fini c\'est devoir: il va faire le con juste au bout de la nuit . \n' +
+    '6: va coupé du bois car il a froid . \n' +
+    '6: a fini de coupé du bois car il a chaud .') }
 
 
 //Menu article:
