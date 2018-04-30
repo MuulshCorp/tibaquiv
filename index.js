@@ -89,7 +89,7 @@ else if (message.content === '.kills')          { message.reply             ('a 
 else if (message.content === '.boss')           { message.channel.send      ('c\'est pas toi le boss, le patron ou le maître! Petit {user} c\'est mwa ahahahahahah ') }
 else if (message.content === '.maj')            { message.channel.send      ('un jour ou l\'autre j\'aurai une mise à jour :sob:') }
 else if (message.content === '.credit')         { message.channel.send      ('bot créé par <@!385337893553438720> avec l\'aide de <@!317968962656796674> car il a une grosse b... heu moi ?! nan JAMAIS ! (désolé mes créateur sont des hommes ils ont oublier le féminin c\'est des connards et ils sont vulgaires et font des fautes d\'orthographe)') }
-else if (message.content === '.id')             { message.channel.send      ('salut moi je suis M. tib aquiv un bot super utile') }  
+else if (message.content === '.id')             { message.channel.send      ('salut moi je suis M. tib aquiv un bot de afk  super utile') }  
 else if (message.content === '.dico')           { message.channel.send      ('indisponible pour le moment #dico (et la chose que tu veux savoir ) = un lien vers la page web#') }
 
 //secret de la commande dico:
