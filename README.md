@@ -1,2 +1,2 @@
-# tibaquiv
-bot
+# mtibaquiv
+Bot discord
