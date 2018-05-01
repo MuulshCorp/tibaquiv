@@ -78,7 +78,7 @@ else if (message.content === '.article 5')      { message.channel.send      ('on
     
 //Commande normal
 else if (message.content === '.bonjour')        { message.channel.send      ('salut a toi misérables et inférieur larve que l\'on nomme "humains"') }
-else if (message.content === '.attention')      { message.channel.send      ('vilain petit {user} tu as fait une bêtise tu vas avoir la punition ... t\'a de la chance je suis juste un programme je peut pas te punir ') }
+else if (message.content === '.attention')      { message.channel.send      ('vilain petit garnement tu as fait une bêtise tu vas avoir la punition ... t\'a de la chance je suis juste un programme je peut pas te punir ') }
 else if (message.content === '.ami')            { message.channel.send      ('alors ? On a pas d\'amis oh c\'est pas grave moi je suis là pour toi ') }
 else if (message.content === '.ping')           { message.channel.send      ('pong') }
 else if (message.content === '.pong')           { message.channel.send      ('ping') }
