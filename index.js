@@ -109,6 +109,7 @@ else if (message.content === 'M. Tib aquiv')    { message.channel.send      ('yo
 else if (message.content === 'Timeur2.0')       { message.channel.send      ('le grand dieu est arrivé sur Terre nous devons le vénéré et lui donné des cadeaux ') }
 else if (message.content === 'Müulsh')          { message.channel.send      ('le dieu de la méchanceté est arrivé attention il va vous troller (attention au mecs qui n\'ont pas d\'humour lol) sinon c\'est tranche de rire à volonté .') }
 else if (message.content === '#dieuxestla')     { message.channel.send      ('Ah tiens on ma reconnu merci .') }
+else if (message.content === 'Allo')            { message.reply             ('comment tu va ?.') }           
 })
 
 
