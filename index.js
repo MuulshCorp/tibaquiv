@@ -31,7 +31,7 @@ if (message.content === '.help')                { message.channel.send      (
     '.maj: surprise') }
 
 //Menu du afk:    
-else if (message.content === '.afk help')       { message.channel.send      ('.afk on (numéro de 1 à 5(ou plus)) = pour activé le afk .\n' +
+else if (message.content === '.afk help')       { message.channel.send      ('.afk on (numéro de 1 à 7(ou plus)) = pour activé le afk .\n' +
     '.afk off (numéro de 1 à 7(ou plus)) = pour désactivé le afk .\n' + 
     '.afk r = affiché les raison .') }                                                                        
 
@@ -107,7 +107,7 @@ else if (message.content === 'Oui')             { message.channel.send      ('na
 else if (message.content === 'Nan')             { message.channel.send      ('...') }
 else if (message.content === 'M. Tib aquiv')    { message.channel.send      ('yo la stutt ') }
 else if (message.content === 'Timeur2.0')       { message.channel.send      ('le grand dieu est arrivé sur Terre nous devons le vénéré et lui donné des cadeaux ') }
-else if (message.content === 'Müulsh')          { message.channel.send      ('le dieu de la méchanceté est arrivé attention il va vous trollé (attention au mecs qui n\'ont pas d\'humour lol) sinon c\'est tranche de rire à volonté .') }
+else if (message.content === 'Müulsh')          { message.channel.send      ('le dieu de la méchanceté est arrivé attention il va vous troller (attention au mecs qui n\'ont pas d\'humour lol) sinon c\'est tranche de rire à volonté .') }
 else if (message.content === '#dieuxestla')     { message.channel.send      ('Ah tiens on ma reconnu merci .') }
 })
 
