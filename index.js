@@ -32,7 +32,7 @@ if (message.content === '.help')                { message.channel.send      (
 
 //Menu du afk:    
 else if (message.content === '.afk help')       { message.channel.send      ('.afk on (numéro de 1 à 5(ou plus)) = pour activé le afk .\n' +
-    '.afk off (numéro de 1 à 6(ou plus)) = pour désactivé le afk .\n' + 
+    '.afk off (numéro de 1 à 7(ou plus)) = pour désactivé le afk .\n' + 
     '.afk r = affiché les raison .') }                                                                        
 
 
@@ -49,7 +49,9 @@ else if (message.content === '.afk on 5')       { message.reply             ('a 
 else if (message.content === '.afk off 5')      { message.reply             ('a fini c\'est devoir: il va faire le con juste au bout de la nuit .') }
 else if (message.content === '.afk on 6')       { message.reply             ('va coupé du bois car il a froid .') }
 else if (message.content === '.afk off 6')      { message.reply             ('a fini de coupé du bois car il a chaud .') }
-  
+else if (message.content === '.afk on 7')       { message.reply             ('va cherché du pains pour son goûter .') }
+else if (message.content === '.afk off 7')      { message.reply             ('est revenu de la boulangerie avec du pain et le ventre plein .') }
+    
 //Menu afk raison:
 if (message.content === '.afk r')               { message.channel.send      (
     '1: par en vacances\n' +
@@ -63,8 +65,9 @@ if (message.content === '.afk r')               { message.channel.send      (
     '5: a pas fait ces devoir: il doit allé travaillé .\n' + 
     '5: a fini c\'est devoir: il va faire le con juste au bout de la nuit . \n' +
     '6: va coupé du bois car il a froid . \n' +
-    '6: a fini de coupé du bois car il a chaud .') }
-
+    '6: a fini de coupé du bois car il a chaud .\n' +
+    '7: va cherché du pains pour son goûter .\n' +
+    '7: est revenu de la boulangerie avec du pains et le ventre plein .') }
 
 //Menu article:
 else if (message.content === '.article')        { message.channel.send      ('list des articles de bases de la plupart de serveur discord (de 1 à 5)') }
