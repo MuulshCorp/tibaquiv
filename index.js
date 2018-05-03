@@ -29,7 +29,8 @@ if (message.content === '.help')                { message.channel.send      (
     '.kills: t\'aime pas le monde \n' + 
     '.boss: c\'est qui le boss? à ton avis?\n' + 
     '.maj: surprise') }
-
+    '.play: avec umpn lien youtube et tu peux écouter une video 
+    
 //Menu du afk:    
 else if (message.content === '.afk help')       { message.channel.send      ('.afk on (numéro de 1 à 7(ou plus)) = pour activé le afk .\n' +
     '.afk off (numéro de 1 à 7(ou plus)) = pour désactivé le afk .\n' + 
@@ -114,7 +115,7 @@ else if (message.content === 'Allo')            { message.reply             ('co
 
  bot.on('message', message => {
 
-  if (message.content.startsWith('!play')) {
+  if (message.content.startsWith('.play')) {
     // On récupère le premier channel audio du serveur
     let voiceChannel = message.guild.channels
       .filter(function (channel) { return channel.type === 'voice' })
