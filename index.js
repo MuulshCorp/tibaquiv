@@ -29,7 +29,7 @@ if (message.content === '.help')                { message.channel.send      (
     '.kills: t\'aime pas le monde \n' + 
     '.boss: c\'est qui le boss? à ton avis?\n' + 
     '.maj: surprise \n' +
-    '.play: avec un lien youtube et tu peux écouter une video ) }
+    '!play: avec un lien youtube et tu peux écouter une video ) }
     
 //Menu du afk:    
 else if (message.content === '.afk help')       { message.channel.send      ('.afk on (numéro de 1 à 7(ou plus)) = pour activé le afk .\n' +
@@ -113,9 +113,8 @@ else if (message.content === '#dieuxestla')     { message.channel.send      ('Ah
 else if (message.content === 'Allo')            { message.reply             ('comment tu va ?') }           
 })
 
- bot.on('message', message => {
 
-  if (message.content.startsWith('.play')) {
+  else if (message.content.startsWith('!play')) {
     // On récupère le premier channel audio du serveur
     let voiceChannel = message.guild.channels
       .filter(function (channel) { return channel.type === 'voice' })
