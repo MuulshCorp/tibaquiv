@@ -32,9 +32,9 @@ if (message.content === '.help')                { message.channel.send      (
     '.maj: surprise ) }
     
 //Menu du afk:    
-else if (message.content === '.afk help')       { message.channel.send      ('.afk on (numéro de 1 à 7(ou plus)) = pour activé le afk .\n' +
-    '.afk off (numéro de 1 à 7(ou plus)) = pour désactivé le afk .\n' + 
-    '.afk r = affiché les raison .') }                                                                        
+else if (message.content === '.afk help')       { message.channel.send      ('.afk on (numéro de 1 à 7 (ou plus) = pour activé le afk .\n' +
+    '.afk off (numéro de 1 à 7 (ou plus) = pour désactivé le afk .\n' + 
+    '.afk r = affiché les raison .') }                                                                     
 
 
 //raisons afk (1 a 5):
