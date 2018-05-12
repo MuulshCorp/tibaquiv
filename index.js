@@ -94,9 +94,12 @@ else if (message.content === '.kills')          { message.reply             ('a 
 else if (message.content === '.boss')           { message.channel.send      ('c\'est pas toi le boss, le patron ou le maître! Petit {user} c\'est mwa ahahahahahah ') }
 else if (message.content === '.maj')            { message.channel.send      ('un jour ou l\'autre j\'aurai une mise à jour :sob:') }
 else if (message.content === '.credit')         { message.channel.send      ('bot créé par Timeur2.0 qui a fait les textes des commandes et Müulsh qui a fait le fucking code !! (désolé mes créateurs sont des hommes ils ont oublier le féminin, c\'est des connards et ils sont vulgaires et font des fautes d\'orthographe et pour Timeur est pervers)') }
-else if (message.content === '.id')             { message.channel.send      ('salut moi je suis M. tib aquiv un bot de afk super utile on peut me trouver sur https://muulshcop.ml ;)') }  
+else if (message.content === '.id')             { message.channel.send      ('salut moi je suis M. tib aquiv un bot de afk super utile on peut me trouver sur https://muulshcop.ml ;)') }
+   message.channel.send("Image", { file : "https://muulshcorp.ml/images/tibaquiv.png" })
+else if (message.content.startsWith('.jeu'))    { message.channel.send      ('Pour jouer a un jeu créé par mes créateur tu peux aller sur https://muulshcorp.ml/#jeux ;)') }
+
+//dico
 else if (message.content.startsWith('.dico'))   { message.channel.send      ('indisponible pour le moment ') }
-else if (message.content.startsWith('.jeu'))   { message.channel.send      ('Pour jouer a un jeu créé par mes créateur tu peux aller sur https://muulshcorp.ml/#jeux ;)') }
 
 //secret de la commande dico:
 else if (message.content === '.dico caca')      { message.channel.send      ('t\'es fou toi!? chu pas dégueu  va le faire toi même (avec une image de mec qui caque sur ces chiottes)') }
@@ -108,13 +111,14 @@ else if (message.content === 'Non')             { message.channel.send      ('si
 else if (message.content === 'Si')              { message.channel.send      ('non ') }
 else if (message.content === 'Oui')             { message.channel.send      ('nan') }
 else if (message.content === 'Nan')             { message.channel.send      ('...') }
-else if (message.content === 'M. Tib aquiv')    { message.channel.send      ('yo la stutt ') }
-else if (message.content === 'Timeur2.0')       { message.channel.send      ('le grand dieu est arrivé sur Terre nous devons le vénéré et lui donné des cadeaux ') }
-else if (message.content === 'Müulsh')          { message.channel.send      ('le dieu de la méchanceté est arrivé attention il va vous troller (attention au mecs qui n\'ont pas d\'humour lol) sinon c\'est tranche de rire à volonté .') }
 else if (message.content === '#dieuxestla')     { message.channel.send      ('Ah tiens on ma reconnu merci .') }
 else if (message.content === 'Allo')            { message.reply             ('comment tu va ?') } 
    
-else if (message.content.startsWith('lorenzo'))   { message.channel.send      ('Le mec qui n\'a pas d\'humoir mais qui fait des blagues douteuses pas vrai <@!372778933839593483> et <@!439425639527874562> :p') }
+//perso
+else if (message.content === 'M. Tib aquiv')    { message.channel.send      ('yo la stutt ') }
+else if (message.content === 'Timeur2.0')       { message.channel.send      ('le grand dieu est arrivé sur Terre nous devons le vénéré et lui donné des cadeaux ') }
+else if (message.content === 'Müulsh')          { message.channel.send      ('le dieu de la méchanceté est arrivé attention il va vous troller (attention au mecs qui n\'ont pas d\'humour lol) sinon c\'est tranche de rire à volonté .') }
+else if (message.content.startsWith('lorenzo')) { message.channel.send      ('Le mec qui n\'a pas d\'humoir mais qui fait des blagues douteuses pas vrai <@!372778933839593483> et <@!439425639527874562> :p') }
    
    
 })
