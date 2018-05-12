@@ -92,9 +92,10 @@ else if (message.content === '.kill')           { message.reply             ('a 
 else if (message.content === '.kills')          { message.reply             ('a tué tout le monde: c\'est un bon psychopathe ') }
 else if (message.content === '.boss')           { message.channel.send      ('c\'est pas toi le boss, le patron ou le maître! Petit {user} c\'est mwa ahahahahahah ') }
 else if (message.content === '.maj')            { message.channel.send      ('un jour ou l\'autre j\'aurai une mise à jour :sob:') }
-else if (message.content === '.credit')         { message.channel.send      ('bot créé par <@!385337893553438720> avec l\'aide de <@!317968962656796674> car il a une grosse b... heu moi ?! nan JAMAIS ! (désolé mes créateur sont des hommes ils ont oublier le féminin c\'est des connards et ils sont vulgaires et font des fautes d\'orthographe)') }
-else if (message.content === '.id')             { message.channel.send      ('salut moi je suis M. tib aquiv un bot de afk  super utile') }  
+else if (message.content === '.credit')         { message.channel.send      ('bot créé par Timeur2.0 qui a fait les textes des commandes et Müulsh qui a fait le fucking code !! (désolé mes créateurs sont des hommes ils ont oublier le féminin, c\'est des connards et ils sont vulgaires et font des fautes d\'orthographe et pour Timeur est pervers)') }
+else if (message.content === '.id')             { message.channel.send      ('salut moi je suis M. tib aquiv un bot de afk super utile on peut me trouver sur https://muulshcop.ml ;)') }  
 else if (message.content.startsWith('.dico'))   { message.channel.send      ('indisponible pour le moment ') }
+else if (message.content.startsWith('.jeu'))   { message.channel.send      ('Pour jouer a un jeu créé par mes créateur tu peux aller sur https://muulshcorp.ml/#jeux ;)') }
 
 //secret de la commande dico:
 else if (message.content === '.dico caca')      { message.channel.send      ('t\'es fou toi!? chu pas dégueu  va le faire toi même (avec une image de mec qui caque sur ces chiottes)') }
