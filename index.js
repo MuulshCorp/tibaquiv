@@ -93,9 +93,8 @@ else if (message.content === '.kill')           { message.reply             ('a 
 else if (message.content === '.kills')          { message.reply             ('a tué tout le monde: c\'est un bon psychopathe ') }
 else if (message.content === '.boss')           { message.channel.send      ('c\'est pas toi le boss, le patron ou le maître! Petit {user} c\'est mwa ahahahahahah ') }
 else if (message.content === '.maj')            { message.channel.send      ('un jour ou l\'autre j\'aurai une mise à jour :sob:') }
-else if (message.content === '.credit')         { message.channel.send      ('bot créé par Timeur2.0 qui a fait les textes des commandes et Müulsh qui a fait le fucking code !! (désolé mes créateurs sont des hommes ils ont oublier le féminin, c\'est des connards et ils sont vulgaires et font des fautes d\'orthographe et pour Timeur est pervers)') }
+else if (message.content === '.credit')         { message.channel.send      ('bot créé par Timeur2.0 qui a fait les textes des commandes et Müulsh qui a fait le fucking code !! (désolé mes créateurs sont des hommes ils ont oublier le féminin, c\'est des connards et ils sont vulgaires et font des fautes d\'orthographe et sont un peu pervers sur les bords :p)') }
 else if (message.content === '.id')             { message.channel.send      ('salut moi je suis M. tib aquiv un bot de afk super utile on peut me trouver sur https://muulshcorp.ml ;)') }
-else if (message.content === 'img')               message.channel.send("Image", { file : "https://muulshcorp.ml/images/tibaquiv.png" })
 
 //dico
 else if (message.content.startsWith('.dico'))   { message.channel.send      ('indisponible pour le moment ') }
