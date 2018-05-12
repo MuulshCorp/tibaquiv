@@ -29,7 +29,8 @@ if (message.content === '.help')                { message.channel.send      (
     '.kill: t\'aime pas quelqu\'un \n' + 
     '.kills: t\'aime pas le monde \n' + 
     '.boss: c\'est qui le boss? à ton avis?\n' + 
-    '.maj: surprise') }
+    '.maj: surprise \n' + 
+    '.jeu: pour jouer a des jeux') }
     
 //Menu du afk:    
 else if (message.content === '.afk help')       { message.channel.send      ('.afk on (numéro de 1 à 7 (ou plus) = pour activé le afk .\n' +
