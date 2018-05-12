@@ -96,7 +96,6 @@ else if (message.content === '.maj')            { message.channel.send      ('un
 else if (message.content === '.credit')         { message.channel.send      ('bot créé par Timeur2.0 qui a fait les textes des commandes et Müulsh qui a fait le fucking code !! (désolé mes créateurs sont des hommes ils ont oublier le féminin, c\'est des connards et ils sont vulgaires et font des fautes d\'orthographe et pour Timeur est pervers)') }
 else if (message.content === '.id')             { message.channel.send      ('salut moi je suis M. tib aquiv un bot de afk super utile on peut me trouver sur https://muulshcop.ml ;)') }
    message.channel.send("Image", { file : "https://muulshcorp.ml/images/tibaquiv.png" })
-else if (message.content === '.jeu'))    { message.channel.send       ('Pour jouer a un jeu créé par mes créateur tu peux aller sur https://muulshcorp.ml/#jeux ;)') }
 
 //dico
 else if (message.content.startsWith('.dico'))   { message.channel.send      ('indisponible pour le moment ') }
