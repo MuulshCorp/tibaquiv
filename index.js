@@ -112,7 +112,7 @@ else if (message.content === 'Müulsh')          { message.channel.send      ('l
 else if (message.content === '#dieuxestla')     { message.channel.send      ('Ah tiens on ma reconnu merci .') }
 else if (message.content === 'Allo')            { message.reply             ('comment tu va ?') } 
    
-else if (message.content.startsWith('TOUSSAVOIRE'))   { message.channel.send      ('Le mec qui n\'a pas d\'humoir mais qui fait des blagues douteuse') }
+else if (message.content.startsWith('lorenzo'))   { message.channel.send      ('Le mec qui n\'a pas d\'humoir mais qui fait des blagues douteuses pas vrai <@!372778933839593483> et <@!439425639527874562> :p') }
    
    
 })
